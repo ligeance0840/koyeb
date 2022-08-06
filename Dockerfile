@@ -2,7 +2,7 @@ FROM alpine:edge
 
 ARG AUUID="2e9615ec-367d-49a7-8b26-a728bce5fada"
 ARG CADDYIndexPage="https://github.com/AYJCSGM/mikutap/archive/master.zip"
-ARG ParameterSSENCYPT="none"
+ARG ParameterSSENCYPT="aes-256-gcm"
 ARG PORT=80
 
 ADD etc/Caddyfile /tmp/Caddyfile
